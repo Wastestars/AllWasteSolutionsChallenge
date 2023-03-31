@@ -13,9 +13,7 @@ After which you can run the command `git clone https://github.com/Wastestars/All
 
 
 ## Almost There
-You are one step away from running your application!!😃
-
-You can run your app using an emlator or using your android phone. 
+You are one step away from running your application!!😃 You can run your app using an emlator or using your android phone. 
 
 a. To run the app on your phone [follow these steps](https://developer.android.com/studio/run/device).
 
