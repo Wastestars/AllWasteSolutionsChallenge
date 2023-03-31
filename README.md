@@ -9,9 +9,7 @@ To run this project:
 
 2: If you don't have git installed visit this [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for further guidance.
 
-After which you can run the command `git clone https://github.com/Wastestars/AllWasteSolutionsChallenge**`
-
-After cloning the project, sync the gradle files in your android studio by going to `File -> Sync Project with Gradle Files`
+After which you can run the command `git clone https://github.com/Wastestars/AllWasteSolutionsChallenge`. After cloning the project, sync the gradle files in your android studio by going to `File -> Sync Project with Gradle Files`
 
 
 ## Almost There
