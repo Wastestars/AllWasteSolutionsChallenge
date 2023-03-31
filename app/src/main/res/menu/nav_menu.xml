@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/nav_postWaste"
+        android:title="Post Recyclable Waste"
+        android:icon="@drawable/baseline_recycling_24"/>
+
+    <item
+        android:id="@+id/nav_schedulePickup"
+        android:title="Schedule Pick Up"
+        android:icon="@drawable/baseline_schedule_24"/>
+
+    <item android:title="Logout">
+        <menu>
+            <item android:id="@+id/nav_logout"
+                android:title="Logout"
+                android:icon="@drawable/baseline_logout_24"/>
+        </menu>
+    </item>
+</menu>

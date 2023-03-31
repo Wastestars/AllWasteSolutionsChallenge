@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AllWaste</string>
+    <string name="app_name_capitalized">ALL WASTE</string>
+
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="schedulepickUp">SCHEDULE PICK UP</string>
+
+    <string name="go_to_login">Already have an account? Login</string>
+    <string name="go_to_register">Don\'t have an account? Register</string>
+    <string name="submit">SUBMIT</string>
+
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="location">Location</string>
+    <string name="date">Date and Time</string>
+
+    <string name="makePayment">MAKE PAYMENT</string>
+    <string name="paypal">Pay with PayPal</string>
+    <string name="hello">Hello,</string>
+    <string name="thankYou">Thank you for scheduling your waste pick up with us.</string>
+    <string name="collectionFee">Garbage Collection Fee: 2.5 USD</string>
+
+    <string name="postRecyclableWaste">POST RECYCLABLE WASTE</string>
+    <string name="wasteName">Name e.g. plastics</string>
+    <string name="wasteDescription">Description</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

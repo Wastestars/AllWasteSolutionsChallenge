@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "643692721519",
+    "project_id": "allwaste-3ac7f",
+    "storage_bucket": "allwaste-3ac7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643692721519:android:8701f92b583b3e2130249a",
+        "android_client_info": {
+          "package_name": "com.example.allwaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643692721519-o4u7mbqmmejn14h7n12rjdgl44jevtqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuOP4axlMJ8Swtz2k9o1j8i1OLN5iC9X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643692721519-o4u7mbqmmejn14h7n12rjdgl44jevtqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
