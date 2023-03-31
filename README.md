@@ -1,8 +1,8 @@
-##What is All Waste?
+## What is All Waste?
 All Waste is a technological solution that aims at creating ways of effective waste management and recycling.
 
 
-##Getting Started
+## Getting Started
 To run this project:
 
 1: If you don't have android studio installed in your local machine, you can download it [here](https://developer.android.com/studio)
@@ -14,7 +14,7 @@ After which you can run the command `git clone https://github.com/Wastestars/All
 After cloning the project, sync the gradle files in your android studio by going to `File -> Sync Project with Gradle Files`
 
 
-##Almost There
+## Almost There
 You are one step away from running your application!!😃
 
 You can run your app using an emlator or using your android phone. 
@@ -23,7 +23,7 @@ a. To run the app on your phone [follow these steps](https://developer.android.c
 
 b. To run the app on an emulator [follow these steps](https://developer.android.com/studio/run/emulator).
 
-##Congratulations🥳🥳
+## Congratulations🥳🥳
 
 You are set to go.
 
