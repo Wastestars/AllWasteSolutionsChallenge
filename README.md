@@ -1,10 +1,11 @@
-All Waste is a technological solution that aims at creatg ways of effective waste management and recycling.
+All Waste is a technological solution that aims at creating ways of effective waste management and recycling.
 
 To run this project:
 
-[^1]: If you don't have android studio installed in your local machine, you can download it here[https://developer.android.com/studio]
+1: If you don't have android studio installed in your local machine, you can download it here[https://developer.android.com/studio]
 
-[^2]: If you don't have git installed visit this link[https://git-scm.com/book/en/v2/Getting-Started-Installing-Git] for further guidance.
+2: If you don't have git installed visit this link[https://git-scm.com/book/en/v2/Getting-Started-Installing-Git] for further guidance.
+
 
 After which you can run the command **git clone https://github.com/Wastestars/AllWasteSolutionsChallenge**
 
