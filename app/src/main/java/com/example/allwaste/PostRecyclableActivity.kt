@@ -13,10 +13,12 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
 import kotlin.system.exitProcess
 
 class PostRecyclableActivity : AppCompatActivity() {
     lateinit var toggle: ActionBarDrawerToggle
+    private lateinit var firebaseAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,8 +66,9 @@ class PostRecyclableActivity : AppCompatActivity() {
                     finish()
                 }
                 R.id.nav_logout -> {
-                    Toast.makeText(applicationContext, "Thank you", Toast.LENGTH_SHORT).show()
-                    exitProcess(0);
+                    firebaseAuth.signOut()
+                    val intent = Intent(this, LoginActivity::class.java)
+                    startActivity(intent)
                 }
             }
 

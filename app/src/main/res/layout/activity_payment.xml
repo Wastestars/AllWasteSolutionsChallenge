@@ -38,7 +38,7 @@
             android:id="@+id/hello"
             android:layout_width="173dp"
             android:layout_height="51dp"
-            android:layout_marginTop="68dp"
+            android:layout_marginTop="30dp"
             android:text="@string/hello"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -54,7 +54,7 @@
             android:id="@+id/thankYou"
             android:layout_width="255dp"
             android:layout_height="111dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="25dp"
             android:text="@string/thankYou"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -67,23 +67,21 @@
             android:id="@+id/collectionFee"
             android:layout_width="272dp"
             android:layout_height="100dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="5dp"
             android:text="@string/collectionFee"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:layout_constraintBottom_toTopOf="@+id/btnSchedulePickUp"
             app:layout_constraintHorizontal_bias="0.539"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/thankYou"
-            app:layout_constraintVertical_bias="0.284" />
+            app:layout_constraintTop_toBottomOf="@+id/thankYou" />
 
         <Button
             android:id="@+id/btnSchedulePickUp"
             android:layout_width="263dp"
             android:layout_height="54dp"
-            android:layout_marginBottom="132dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/button_bg"
             android:text="@string/paypal"
             android:textColor="@color/white"
@@ -91,7 +89,8 @@
             app:backgroundTint="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/collectionFee" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.google.android.material.navigation.NavigationView
