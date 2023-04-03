@@ -67,16 +67,4 @@ class RegistrationActivity : AppCompatActivity() {
         }
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.parseColor("#008374")))
     }
-
-    override fun onStart(){
-        super.onStart()
-
-        if(firebaseAuth.currentUser != null){
-            val intent = Intent(this, PostRecyclableActivity::class.java)
-            startActivity(intent)
-        }else{
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
-    }
 }

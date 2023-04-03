@@ -39,6 +39,7 @@ class PostRecyclableActivity : AppCompatActivity() {
         }
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.parseColor("#008374")))
 
+        firebaseAuth = FirebaseAuth.getInstance()
         val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
         val navView: NavigationView = findViewById(R.id.nav_view)
 
